@@ -1,0 +1,23 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "player",
+        "type_specific": {
+            "type": "player",
+            "gamemode": "survival"
+        },
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "golden_axe"
+                ],
+                "count": 1,
+                "durability": {
+                    "min": 1,
+                    "max": 33
+                }
+            }
+        }
+    }
+}

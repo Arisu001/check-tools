@@ -1,0 +1,7 @@
+scoreboard players operation @s wpns.durab = $gldn tms.const
+scoreboard players operation @s wpns.durab -= @s dmg.wpns
+
+title @s[predicate=src:this/weapons/golden/axe] actionbar [{"translate": "item.minecraft.golden_axe", "color": "#FF8D500"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$gldn", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/golden/pickaxe] actionbar [{"translate": "item.minecraft.golden_pickaxe", "color": "#FF8D500"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$gldn", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/golden/shovel] actionbar [{"translate": "item.minecraft.golden_shovel", "color": "#FF8D500"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$gldn", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/golden/sword] actionbar [{"translate": "item.minecraft.golden_sword", "color": "#FF8D500"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$gldn", "objective": "tms.const"}, "color": "yellow"}]

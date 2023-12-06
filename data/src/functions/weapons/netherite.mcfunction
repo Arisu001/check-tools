@@ -1,0 +1,7 @@
+scoreboard players operation @s wpns.durab = $rite tms.const
+scoreboard players operation @s wpns.durab -= @s dmg.wpns
+
+title @s[predicate=src:this/weapons/netherite/axe] actionbar [{"translate": "item.minecraft.netherite_axe", "color": "dark_gray"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$rite", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/netherite/pickaxe] actionbar [{"translate": "item.minecraft.netherite_pickaxe", "color": "dark_gray"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$rite", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/netherite/shovel] actionbar [{"translate": "item.minecraft.netherite_shovel", "color": "dark_gray"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$rite", "objective": "tms.const"}, "color": "yellow"}]
+title @s[predicate=src:this/weapons/netherite/sword] actionbar [{"translate": "item.minecraft.netherite_sword", "color": "dark_gray"}, {"text": ":  ", "color": "white"}, {"score": {"name": "@s", "objective": "wpns.durab"}, "color": "gold"}, {"text": "/", "color": "white"}, {"score": {"name": "$rite", "objective": "tms.const"}, "color": "yellow"}]
