@@ -1,6 +1,6 @@
 #═════════════════[ Check Tools ]═════════════════#
 
-> Ver_: 1.0.0
+> Ver_: 1.0.1 --- fix code
 > Languages: French, English
 
 > Solo: Accpeted ✔
